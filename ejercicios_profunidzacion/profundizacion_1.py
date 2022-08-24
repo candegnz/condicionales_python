@@ -22,3 +22,39 @@ si el resultado es positivo, negativo o cero.
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+
+numero_1= int(input())
+numero_2= int(input())
+
+
+if numero_1 > numero_2:
+    print("{} es mayor que {}".format(numero_1, numero_2))
+elif numero_1 < numero_2:
+    print("{} es mayor que {}".format(numero_2, numero_1))
+elif numero_1 == numero_2:
+    print("{} es igual a {}".format(numero_1, numero_2))
+
+
+if numero_1 > 0:
+    print("{} es positivo".format(numero_1))
+elif numero_1 < 0:
+    print("{} es negativo".format(numero_1))
+elif numero_1 == 0:
+    print("{} es 0".format(numero_1))
+
+if numero_2 > 0:
+      print("{} es positivo".format(numero_2))
+elif numero_1 < 0:
+    print("{} es negativo".format(numero_2))
+elif numero_2 == 0:
+    print("{} es 0".format(numero_2))
+
+
+
+
+
+
+
+
+
+

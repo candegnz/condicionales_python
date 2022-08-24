@@ -28,5 +28,35 @@ no se busca utilizar bucles o algoritmos de ordenamiento ya que aún no hemos ll
 contenido. Recomendamos pensar bien este problema de lógica con un lápiz y papel.
 '''
 
+from __future__ import division
+
+
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+
+print("Ingrese a continuación tres valores de temperaturas:")
+
+temperatura_1= float(input())
+temperatura_2= float(input())
+temperatura_3= float(input())
+
+if (temperatura_1 > temperatura_2) and (temperatura_1 > temperatura_3):
+    print(temperatura_1, "es la mayor temperatura")
+elif (temperatura_2 > temperatura_1) and (temperatura_2 > temperatura_3):
+    print(temperatura_2, "es la mayor temperatura")
+elif (temperatura_3 > temperatura_2) and (temperatura_3 > temperatura_1):
+    print(temperatura_3, "es la mayor temperatura")
+
+if (temperatura_1 < temperatura_2) and (temperatura_1 < temperatura_3):
+    print(temperatura_1, "es la menor temperatura")
+elif (temperatura_2 < temperatura_1) and (temperatura_2 < temperatura_3):
+    print(temperatura_2, "es la menor temperatura")
+elif (temperatura_3 < temperatura_2) and (temperatura_3 < temperatura_1):
+    print(temperatura_3, "es la menor temperatura")
+
+suma= temperatura_1 + temperatura_2 + temperatura_3
+
+if suma > 0:
+    division= suma / 3
+    print("El promedio de las tres temperaturas es", division)
+
